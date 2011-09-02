@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>pear.phpqatools.org</name>
+  <summary>PEAR Channel for the PHP Quality Assurance Toolchain</summary>
+  <alias>phpqatools</alias>
+  <url>http://pear.phpqatools.org</url>
+</server>
