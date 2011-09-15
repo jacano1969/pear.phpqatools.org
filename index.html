@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>PEAR Channel for the PHP Quality Assurance Toolchain</title>
-    <link rel="stylesheet" type="text/css" href="http://pear.phpqatools.org/pirum.css" />
+    <link rel="stylesheet" type="text/css" href="pirum.css" />
     <link rel="alternate" type="application/rss+xml" href="http://pear.phpqatools.org/feed.xml" title="PEAR Channel for the PHP Quality Assurance Toolchain Latest Releases" />
 </head>
 <body>
@@ -13,8 +13,6 @@
         </div>
         <div id="bd">
             <div class="yui-g">
-                <h2>Using this Channel</h2>
-                <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
                 <pre><code>pear channel-discover pear.phpqatools.org</code></pre>
                 <em>Listing</em> available packages:
@@ -27,23 +25,20 @@ pear install phpqatools/package_name-beta</code></pre>
                 <em>Receiving</em> updates via a <a href="http://pear.phpqatools.org/feed.xml">feed</a>:
                 <pre><code>http://pear.phpqatools.org/feed.xml</code></pre>
 
-                <h2>Packages</h2>
-
                                     <h3>phpqatools<small> - Meta Package for the PHP Quality Assurance Toolchain</small></h3>
                     <p>Meta Package for the PHP Quality Assurance Toolchain</p>
-                    <ul>
-                        <li><strong>Package name</strong>: phpqatools</li>
-                        <li><strong>License</strong>: BSD License</li>
-                                                <li><strong>Maintainers</strong>: Sebastian Bergmann (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://pear.phpqatools.org/get/phpqatools-1.0.0.tgz">1.0.0</a> (stable)</li>
-                        <li><strong>Install command</strong>: pear install phpqatools/phpqatools</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install phpqatools/phpqatools</strong></td></tr>
+                        <tr><th>License</th><td>BSD License</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.phpunit.de/PHPUnit,                                                                     pear.pdepend.org/PHP_Depend,                                                                     pear.phpmd.org/PHP_PMD,                                                                     pear.phpunit.de/phpcpd,                                                                     pear.phpunit.de/phploc,                                                                     pear.phpunit.de/PHP_CodeBrowser,                                                                     pear.php.net/PHP_CodeSniffer                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Sebastian Bergmann <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://pear.phpqatools.org/get/phpqatools-1.0.0.tgz">1.0.0</a> <small>(stable)</small></td></tr>
+                    </table>
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>pear.phpqatools.org</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.2</small></p>
+            <p><small>The <em>pear.phpqatools.org</em> PEAR Channel Server is proudly powered by <a href="http://pirum.sensiolabs.org/">Pirum</a> 1.0.3</small></p>
         </div>
     </div>
 </body>
