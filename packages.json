@@ -1,0 +1,47 @@
+{
+    "pear-phpqatools\/phpqatools": {
+        "versions": {
+            "1.0.0": {
+                "name": "pear-phpqatools\/phpqatools",
+                "description": "Meta Package for the PHP Quality Assurance Toolchain",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.phpqatools.org\/get\/phpqatools-1.0.0.tgz"
+                },
+                "version": "1.0.0",
+                "time": "2011-09-02T11:48:43+02:00",
+                "require": {
+                    "php": ">=5.2.7",
+                    "pear-phpunit\/PHPUnit": "*",
+                    "pear-pdepend\/PHP_Depend": "*",
+                    "pear-phpmd\/PHP_PMD": "*",
+                    "pear-phpunit\/phpcpd": "*",
+                    "pear-phpunit\/phploc": "*",
+                    "pear-phpunit\/PHP_CodeBrowser": "*",
+                    "pear-pear\/PHP_CodeSniffer": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "name": "pear-phpqatools\/phpqatools",
+        "description": "Meta Package for the PHP Quality Assurance Toolchain",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de",
+                "homepage": ""
+            }
+        ]
+    }
+}
