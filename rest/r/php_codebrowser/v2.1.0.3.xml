@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/php_codebrowser">PHP_CodeBrowser</p>
+    <c>pear.phpqatools.org</c>
+    <v>1.0.3</v>
+    <a>1.0.0</a>
+    <mp>5.2.6</mp>
+    <st>stable</st>
+    <l>BSD License</l>
+    <m>simon</m>
+    <s>A code browser that augments the code with information from various QA tools.</s>
+    <d>A code browser that augments the code with information from various QA tools.</d>
+    <da>2012-04-24 07:53:52</da>
+    <n>
+http://github.com/mayflowergmbh/PHP_CodeBrowser/blob/master/CHANGELOG.markdown
+ </n>
+    <f>172253</f>
+    <g>http://pear.phpqatools.org/get/PHP_CodeBrowser-1.0.3</g>
+    <x xlink:href="package.1.0.3.xml"/>
+</r>

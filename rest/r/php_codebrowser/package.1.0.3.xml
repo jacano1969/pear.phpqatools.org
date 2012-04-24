@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0                       http://pear.php.net/dtd/tasks-1.0.xsd                       http://pear.php.net/dtd/package-2.0                       http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHP_CodeBrowser</name>
+ <channel>pear.phpqatools.org</channel>
+ <summary>A code browser that augments the code with information from various QA tools.</summary>
+ <description>A code browser that augments the code with information from various QA tools.</description>
+ <lead>
+  <name>Simon Kohlmeyer</name>
+  <user>simon</user>
+  <email>simon.kohlmeyer@mayflower.de</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-24</date>
+ <time>07:53:52</time>
+ <version>
+  <release>1.0.3</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+ <notes>
+http://github.com/mayflowergmbh/PHP_CodeBrowser/blob/master/CHANGELOG.markdown
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="2db0199363ebd72d3a74acd5069b7eb0" name="src/Helper/IOHelper.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="be6510293291d7270c2aae778046aa6f" name="src/Plugins/ErrorCPD.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="b9810cd0fed4a7ecc308c5e51ddf517e" name="src/Plugins/ErrorCRAP.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="c6e45898069c1367d97d933961c2eca7" name="src/Plugins/ErrorCheckstyle.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="a32672621096cdb636d7ca96d971883e" name="src/Plugins/ErrorCoverage.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="09527f46ec7714c0dc88127f9f68d185" name="src/Plugins/ErrorPMD.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="7e39c94577f397adfb699e3e4d9e31b5" name="src/Plugins/ErrorPadawan.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="cfef800577509cbae56c6c72a6334cf0" name="src/View/ViewAbstract.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="9c1789d132fa3999463748db5f5a5c14" name="src/View/ViewReview.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="a4e81d95415d7d68115fe1756dd65856" name="src/Autoload.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="20e155db50273d2e02ca9ec88e175ce1" name="src/CLIController.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+    <tasks:replace from="@php_dir@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@release_date@" to="release_date" type="package-info" />
+   </file>
+   <file md5sum="74532ef71d8bbe2c6c61d53cd9acd5a4" name="src/File.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="0e9ea04f9f495e72d88d7fab8aa3f211" name="src/Issue.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="c78fea2e5ac34cfab6b8fd0c13fedd13" name="src/IssueXml.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="b82f222eb4d9aded8ade9aeb49d0aa01" name="src/PluginsAbstract.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="7d607648ece028ebda0d0c16226aee48" name="src/SourceHandler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="de82b345604cdf93cbd5fc0e79871342" name="templates/css/cruisecontrol.css" role="data" />
+   <file md5sum="304642a413959f362d62c75190527052" name="templates/css/global.css" role="data" />
+   <file md5sum="c747f31f0839bdeae8f7f89e5d6f990c" name="templates/css/review.css" role="data" />
+   <file md5sum="5e54da358932157ba05f97e25ea6cd99" name="templates/css/tree.css" role="data" />
+   <file md5sum="87c40fc955b216e7f44057e3eabdbe63" name="templates/img/background.gif" role="data" />
+   <file md5sum="4a7a0bc6ebddd4836ce16f8d3e12704e" name="templates/img/base.gif" role="data" />
+   <file md5sum="f41037663522fab5c5c31530c7fa43d8" name="templates/img/cd.gif" role="data" />
+   <file md5sum="df22aff6e941ff1cc577333d1712b584" name="templates/img/empty.gif" role="data" />
+   <file md5sum="ea16980ab437fa6ba4aba3d480e83e9e" name="templates/img/folder.gif" role="data" />
+   <file md5sum="18aa3d75315bf95bf080357733437fcc" name="templates/img/folderopen.gif" role="data" />
+   <file md5sum="d6b48614cf8dc9553e077c19197637d2" name="templates/img/globe.gif" role="data" />
+   <file md5sum="1d488d377762e65ab4e8b691ba01e5a4" name="templates/img/imgfolder.gif" role="data" />
+   <file md5sum="4d5d614e0da056df815a4306d6368692" name="templates/img/join.gif" role="data" />
+   <file md5sum="4b3daa7f2cc584f1aac0d142275d7cba" name="templates/img/joinbottom.gif" role="data" />
+   <file md5sum="63ab38a6203262f15ca46c631232ea2c" name="templates/img/line.gif" role="data" />
+   <file md5sum="d647fbbd0ec410b8f3bb3357b62eedcf" name="templates/img/minus.gif" role="data" />
+   <file md5sum="b09d684cca7135ef728141aaf2464baa" name="templates/img/minusbottom.gif" role="data" />
+   <file md5sum="21ece951734f23adb2f75befe1f31fc1" name="templates/img/musicfolder.gif" role="data" />
+   <file md5sum="eb2243a354ffcfac93ba0fe948f7167d" name="templates/img/nolines_minus.gif" role="data" />
+   <file md5sum="ec92b634b63608fb4b0dbf114e3b89e1" name="templates/img/nolines_plus.gif" role="data" />
+   <file md5sum="b427163223821e804b9cb0c8bf16dacd" name="templates/img/page.gif" role="data" />
+   <file md5sum="48cda2a2a54a31f7a666547c862c12e7" name="templates/img/page.png" role="data" />
+   <file md5sum="5c55d798909c553deca31d610bd18fac" name="templates/img/plus.gif" role="data" />
+   <file md5sum="1924ce363c38a992f888a4df48c0b274" name="templates/img/plusbottom.gif" role="data" />
+   <file md5sum="ea0ca196ce0ebfd625cc1210abfdec6c" name="templates/img/question.gif" role="data" />
+   <file md5sum="b4a5dc7a89ae5fb833dd111c839f9e95" name="templates/img/separator.gif" role="data" />
+   <file md5sum="178b4e9eeb3c123a13a856e3081900a2" name="templates/img/slider.gif" role="data" />
+   <file md5sum="f91312a84f568fc61311ca6fa410822d" name="templates/img/tab-active.png" role="data" />
+   <file md5sum="6cbfd3ed29531044aed9b4edb3cca9ad" name="templates/img/trash.gif" role="data" />
+   <file md5sum="a6bd016ea3bf03c7bf0013917695e766" name="templates/img/treeToggle-collapsed.png" role="data" />
+   <file md5sum="d87f3fa001343af45d87c1dc5a4f7d10" name="templates/img/treeToggle-extended.png" role="data" />
+   <file md5sum="6e2d71216282cdb14be9a93955ab46b0" name="templates/img/treeToggle.gif" role="data" />
+   <file md5sum="7194d60abb1b20600557574ac9c1d8bd" name="templates/js/jquery.cluetip/images/arrowdown.gif" role="data" />
+   <file md5sum="82e3cc641e50a1c0e5f3c6efdc5f5667" name="templates/js/jquery.cluetip/images/arrowleft.gif" role="data" />
+   <file md5sum="8c3898e1f5faeed0ec7021bdf38a2f11" name="templates/js/jquery.cluetip/images/arrowright.gif" role="data" />
+   <file md5sum="82da2ad0214b5202d95636a480fe1a33" name="templates/js/jquery.cluetip/images/arrowup.gif" role="data" />
+   <file md5sum="481bb0d0448656b9c6a8f0f77f80f764" name="templates/js/jquery.cluetip/images/bl.gif" role="data" />
+   <file md5sum="010b1f6b1fa4fea764a7a4c20b3709d8" name="templates/js/jquery.cluetip/images/bl.png" role="data" />
+   <file md5sum="4c4683c895f622a3dfe78212944234d5" name="templates/js/jquery.cluetip/images/br.gif" role="data" />
+   <file md5sum="0da45f5bf065e05ed2c6237f49204140" name="templates/js/jquery.cluetip/images/br.png" role="data" />
+   <file md5sum="1a62efd2182d648c1ee3df8b3073e92d" name="templates/js/jquery.cluetip/images/darrowdown.gif" role="data" />
+   <file md5sum="c1d6d558c9d489de8ec7c4cca03ef153" name="templates/js/jquery.cluetip/images/darrowleft.gif" role="data" />
+   <file md5sum="99860d48fbb1dc98c57e365f6efb64ff" name="templates/js/jquery.cluetip/images/darrowright.gif" role="data" />
+   <file md5sum="e0a9db80882e907d05f83efda56bea62" name="templates/js/jquery.cluetip/images/darrowup.gif" role="data" />
+   <file md5sum="fc0a36982930167d764312cd4a5c96ba" name="templates/js/jquery.cluetip/images/itunes.png" role="data" />
+   <file md5sum="cee114805e2f9f39d41b3899b90fada4" name="templates/js/jquery.cluetip/images/rarrowdown.gif" role="data" />
+   <file md5sum="18682e9eea07b97170815a0301cb34c7" name="templates/js/jquery.cluetip/images/rarrowleft.gif" role="data" />
+   <file md5sum="43912a0659617b5e9e71af8e6198034c" name="templates/js/jquery.cluetip/images/rarrowright.gif" role="data" />
+   <file md5sum="046269cfc12696bb19bbd827fcf70eda" name="templates/js/jquery.cluetip/images/rarrowup.gif" role="data" />
+   <file md5sum="4d7219fb75f8bd462e7d890a829fd9ba" name="templates/js/jquery.cluetip/images/tl.gif" role="data" />
+   <file md5sum="be3b1ee11718e7c00780a698775b9c12" name="templates/js/jquery.cluetip/images/tl.png" role="data" />
+   <file md5sum="4ab68882ec052ee56352cf9210370602" name="templates/js/jquery.cluetip/images/tr.gif" role="data" />
+   <file md5sum="8dfc7b90dea2971f3af006e4c16e60dd" name="templates/js/jquery.cluetip/images/tr.png" role="data" />
+   <file md5sum="fb16b564be36a9e13589e04528636041" name="templates/js/jquery.cluetip/images/wait.gif" role="data" />
+   <file md5sum="1f218fbbdf008fab17191a44e0d39fae" name="templates/js/jquery.cluetip/lib/jquery.bgiframe.min.js" role="data" />
+   <file md5sum="39cdc630982b7bd5b0980344606518d7" name="templates/js/jquery.cluetip/lib/jquery.hoverIntent.js" role="data" />
+   <file md5sum="0125208d15fa57b206797ab2aa6b32cb" name="templates/js/jquery.cluetip/jquery.cluetip.css" role="data" />
+   <file md5sum="bffb9cd85b44b92e42034375750114d8" name="templates/js/jquery.cluetip/jquery.cluetip.min.js" role="data" />
+   <file md5sum="0eb50798dca00f5cc8e153e6da9a87f9" name="templates/js/jquery.jstree/themes/default/d.png" role="data" />
+   <file md5sum="8c304279c4e1d2ff621937a27c636f68" name="templates/js/jquery.jstree/themes/default/dot_for_ie.gif" role="data" />
+   <file md5sum="930645ba14d73f63eadf2c5cc2c232c9" name="templates/js/jquery.jstree/themes/default/style.css" role="data" />
+   <file md5sum="7b9776076d5fceef4993b55c9383dedd" name="templates/js/jquery.jstree/themes/default/throbber.gif" role="data" />
+   <file md5sum="3aebb7569532f7c242d178065fb165b5" name="templates/js/jquery.jstree/jquery.jstree.min.js" role="data" />
+   <file md5sum="ac84e7cb47ac3a9eddbaa19fbe85f838" name="templates/js/jquery.sidebar/css/codebrowser/inject-bottom.png" role="data" />
+   <file md5sum="ec712ccab0e281d2e541b1473194cacd" name="templates/js/jquery.sidebar/css/codebrowser/inject-left.png" role="data" />
+   <file md5sum="d87f3fa001343af45d87c1dc5a4f7d10" name="templates/js/jquery.sidebar/css/codebrowser/inject-right.png" role="data" />
+   <file md5sum="bcbba8fd4eb381e3d3df96bbe05cfd2a" name="templates/js/jquery.sidebar/css/codebrowser/inject-top.png" role="data" />
+   <file md5sum="82aa69adbf14d0ca9f4bc575616d2539" name="templates/js/jquery.sidebar/css/codebrowser/sidebar.css" role="data" />
+   <file md5sum="17fc1ea3e8066ef38106d4a3bbbed3ac" name="templates/js/jquery.sidebar/jquery.sidebar.js" role="data" />
+   <file md5sum="6d9a17f8e58f5c207ef014085a407100" name="templates/js/jquery.sidebar/jquery-ui-1.7.2.custom.min.js" role="data" />
+   <file md5sum="10092eee563dec2dca82b77d2cf5a1ae" name="templates/js/jquery-1.4.2.min.js" role="data" />
+   <file md5sum="135df9499341f683a6152af9d52589b1" name="templates/js/jquery.history.js" role="data" />
+   <file md5sum="e8085bbcbc88f90c7539302a4a17a67d" name="templates/js/review.js" role="data" />
+   <file md5sum="cd73ee2d29b85bde9472c23b86aedb1f" name="templates/js/tree.js" role="data" />
+   <file md5sum="61260f4815ebdd7d24de0d55c7e8cc76" name="templates/index.tpl" role="data" />
+   <file md5sum="5a1f7ef013918683b0c11e79573d2d6e" name="templates/noErrors.tpl" role="data" />
+   <file md5sum="ccd0ad9aab4008c94996c128f04f60ed" name="templates/review.tpl" role="data" />
+   <file md5sum="59a53f7793db625885d386691c8bc8c3" name="bin/phpcb.bat" role="script">
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:windowseol />
+   </file>
+   <file md5sum="a50b890fc01213793425be034ebb5954" name="bin/phpcb.php" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_dir@" to="php_dir" type="pear-config" />
+   </file>
+   <file md5sum="7ea71f25c3432d300411918b049755ca" name="CHANGELOG.markdown" role="doc" />
+   <file md5sum="f0007e7d59c5d9c6d7b79980cf2715e1" name="LICENSE" role="doc" />
+   <file md5sum="85ef8719c170f5f69ed44d31a5380353" name="README.markdown" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.6</min>
+   </php>
+   <pearinstaller>
+    <min>1.8.1</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+   <package>
+    <name>File_Iterator</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.3.0</min>
+   </package>
+   <package>
+    <name>Log</name>
+    <channel>pear.php.net</channel>
+    <min>1.12.1</min>
+   </package>
+   <extension>
+    <name>dom</name>
+   </extension>
+   <extension>
+    <name>pcre</name>
+   </extension>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>Text_Highlighter</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.1</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.4.0</min>
+   </package>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+    <min>1.2.0</min>
+   </package>
+   <package>
+    <name>PhpDocumentor</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+   <extension>
+    <name>mbstring</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <installconditions>
+   <os>
+    <name>windows</name>
+   </os>
+  </installconditions>
+  <filelist>
+   <install as="PHP_CodeBrowser/Helper/IOHelper.php" name="src/Helper/IOHelper.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCPD.php" name="src/Plugins/ErrorCPD.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCRAP.php" name="src/Plugins/ErrorCRAP.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCheckstyle.php" name="src/Plugins/ErrorCheckstyle.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCoverage.php" name="src/Plugins/ErrorCoverage.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorPMD.php" name="src/Plugins/ErrorPMD.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorPadawan.php" name="src/Plugins/ErrorPadawan.php" />
+   <install as="PHP_CodeBrowser/View/ViewReview.php" name="src/View/ViewReview.php" />
+   <install as="PHP_CodeBrowser/View/ViewAbstract.php" name="src/View/ViewAbstract.php" />
+   <install as="PHP_CodeBrowser/Autoload.php" name="src/Autoload.php" />
+   <install as="PHP_CodeBrowser/CLIController.php" name="src/CLIController.php" />
+   <install as="PHP_CodeBrowser/File.php" name="src/File.php" />
+   <install as="PHP_CodeBrowser/Issue.php" name="src/Issue.php" />
+   <install as="PHP_CodeBrowser/IssueXml.php" name="src/IssueXml.php" />
+   <install as="PHP_CodeBrowser/PluginsAbstract.php" name="src/PluginsAbstract.php" />
+   <install as="PHP_CodeBrowser/SourceHandler.php" name="src/SourceHandler.php" />
+   <install as="phpcb.bat" name="bin/phpcb.bat" />
+   <install as="phpcb" name="bin/phpcb.php" />
+  </filelist>
+ </phprelease>
+ <phprelease>
+  <filelist>
+   <install as="PHP_CodeBrowser/Helper/IOHelper.php" name="src/Helper/IOHelper.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCPD.php" name="src/Plugins/ErrorCPD.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCRAP.php" name="src/Plugins/ErrorCRAP.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCheckstyle.php" name="src/Plugins/ErrorCheckstyle.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorCoverage.php" name="src/Plugins/ErrorCoverage.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorPMD.php" name="src/Plugins/ErrorPMD.php" />
+   <install as="PHP_CodeBrowser/Plugins/ErrorPadawan.php" name="src/Plugins/ErrorPadawan.php" />
+   <install as="PHP_CodeBrowser/View/ViewReview.php" name="src/View/ViewReview.php" />
+   <install as="PHP_CodeBrowser/View/ViewAbstract.php" name="src/View/ViewAbstract.php" />
+   <install as="PHP_CodeBrowser/Autoload.php" name="src/Autoload.php" />
+   <install as="PHP_CodeBrowser/CLIController.php" name="src/CLIController.php" />
+   <install as="PHP_CodeBrowser/File.php" name="src/File.php" />
+   <install as="PHP_CodeBrowser/Issue.php" name="src/Issue.php" />
+   <install as="PHP_CodeBrowser/IssueXml.php" name="src/IssueXml.php" />
+   <install as="PHP_CodeBrowser/PluginsAbstract.php" name="src/PluginsAbstract.php" />
+   <install as="PHP_CodeBrowser/SourceHandler.php" name="src/SourceHandler.php" />
+   <install as="phpcb" name="bin/phpcb.php" />
+   <ignore name="bin/phpcb.bat" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2009-11-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+Initial release of PHP_CodeBrowser
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2009-11-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- fixed PHP_CodeBrowser error, in case of project does not has any error log files or only empty error log files.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-03-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Added additional view if source has no errors or valid XML files
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-04-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Fixed filename mismatch
+- Improved execution time output
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.4</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-06-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Fixed missing line numbers bug in PMD plugin
+- Fixed bug in PMD plugin (Issue #5)
+- Now using Sebastian Bergmann&apos;s PHP_Timer utility
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-08-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Added support for CRAP when using logs from PHPUnit 3.5
+- Improved performance
+- Now using jQuery as JavaScript framework
+- Added --exclude and --excludePCRE option
+- Allowed multiple --source options
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-09-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Fixed various Windows-related issues.
+- Added error/warning count to the file tree.
+- Added a commandline switch to debug exclude options.
+- Made XHTML output W3C-compliant.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-12-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Added --ignore option.
+- Fixed a few bugs.
+- Improved windows support.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-01-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- Fixed some bugs.
+- Allow custom extensions for php files.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.3</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>
+- If mbstring is available, we&apos;ll now try to detect file encodings
+- Allow the exclusion of files without errors
+   </notes>
+  </release>
+ </changelog>
+</package>

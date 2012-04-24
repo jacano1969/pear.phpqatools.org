@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>PHP_CodeBrowser</n>
+<c>pear.phpqatools.org</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD License</l>
+<s>A code browser that augments the code with information from various QA tools.</s>
+<d>A code browser that augments the code with information from various QA tools.</d>
+<r xlink:href="/rest/r/php_codebrowser" />
+</p>

@@ -1,4 +1,55 @@
 {
+    "pear-phpqatools\/PHP_CodeBrowser": {
+        "versions": {
+            "1.0.3": {
+                "name": "pear-phpqatools\/PHP_CodeBrowser",
+                "description": "A code browser that augments the code with information from various QA tools.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.phpqatools.org\/get\/PHP_CodeBrowser-1.0.3.tgz"
+                },
+                "version": "1.0.3",
+                "time": "2012-04-24T07:53:52+02:00",
+                "require": {
+                    "php": ">=5.2.6",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3",
+                    "pear-phpunit\/File_Iterator": ">=1.3.0",
+                    "pear-pear\/Log": ">=1.12.1",
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-pear\/Text_Highlighter": ">=0.7.1",
+                    "pear-phpunit\/PHPUnit": ">=3.4.0",
+                    "pear-pear\/PHP_CodeSniffer": ">=1.2.0",
+                    "pear-pear\/PhpDocumentor": ">=1.4.3",
+                    "ext-mbstring": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Simon Kohlmeyer",
+                        "email": "simon.kohlmeyer@mayflower.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "src"
+                    }
+                }
+            }
+        },
+        "name": "pear-phpqatools\/PHP_CodeBrowser",
+        "description": "A code browser that augments the code with information from various QA tools.",
+        "maintainers": [
+            {
+                "name": "Simon Kohlmeyer",
+                "email": "simon.kohlmeyer@mayflower.de",
+                "homepage": ""
+            }
+        ]
+    },
     "pear-phpqatools\/phpqatools": {
         "versions": {
             "1.0.0": {

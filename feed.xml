@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.phpqatools.org</id>
-    <updated>2012-04-24T09:49:53+02:00</updated>
+    <updated>2012-04-24T09:58:51+02:00</updated>
     <title>PEAR Channel for the PHP Quality Assurance Toolchain Latest Releases</title>
     <link href="http://pear.phpqatools.org/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>PHP_CodeBrowser 1.0.3 (stable)</title>
+        <link href="http://pear.phpqatools.org/get/PHP_CodeBrowser-1.0.3.tgz" />
+        <id>http://pear.phpqatools.org/get/PHP_CodeBrowser-1.0.3.tgz</id>
+        <author>
+            <name>simon</name>
+        </author>
+        <updated>2012-04-24T07:53:52+02:00</updated>
+        <content>
+            
+http://github.com/mayflowergmbh/PHP_CodeBrowser/blob/master/CHANGELOG.markdown
+ 
+        </content>
+    </entry>    <entry>
         <title>phpqatools 1.0.0 (stable)</title>
         <link href="http://pear.phpqatools.org/get/phpqatools-1.0.0.tgz" />
         <id>http://pear.phpqatools.org/get/phpqatools-1.0.0.tgz</id>

@@ -63,7 +63,7 @@
    </package>
    <package>
     <name>PHP_CodeBrowser</name>
-    <channel>pear.phpunit.de</channel>
+    <channel>pear.phpqatools.org</channel>
    </package>
    <package>
     <name>PHP_CodeSniffer</name>
