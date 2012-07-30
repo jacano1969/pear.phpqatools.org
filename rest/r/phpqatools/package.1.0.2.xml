@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.4.10" version="2.0"
-  xmlns="http://pear.php.net/dtd/package-2.0"
-  xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
-                      http://pear.php.net/dtd/tasks-1.0.xsd
-                      http://pear.php.net/dtd/package-2.0
-                      http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0                       http://pear.php.net/dtd/tasks-1.0.xsd                       http://pear.php.net/dtd/package-2.0                       http://pear.php.net/dtd/package-2.0.xsd">
  <name>phpqatools</name>
  <channel>pear.phpqatools.org</channel>
  <summary>Meta Package for the PHP Quality Assurance Toolchain</summary>
@@ -18,6 +11,7 @@
   <active>yes</active>
  </lead>
  <date>2012-07-30</date>
+ <time>10:50:05</time>
  <version>
   <release>1.0.2</release>
   <api>1.0.0</api>
@@ -27,10 +21,12 @@
   <api>stable</api>
  </stability>
  <license>BSD License</license>
- <notes>http://pear.phpqatools.org/</notes>
+ <notes>
+http://pear.phpqatools.org/
+ </notes>
  <contents>
   <dir name="/">
-   <file baseinstalldir="/" name="README.markdown" role="doc"/>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="README.markdown" role="doc" />
   </dir>
  </contents>
  <dependencies>
@@ -43,6 +39,10 @@
    </pearinstaller>
    <package>
     <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+   </package>
+   <package>
+    <name>PHPUnit_SkeletonGenerator</name>
     <channel>pear.phpunit.de</channel>
    </package>
    <package>
@@ -75,11 +75,7 @@
     <name>DbUnit</name>
     <channel>pear.phpunit.de</channel>
    </package>
-   <package>
-    <name>PHPUnit_SkeletonGenerator</name>
-    <channel>pear.phpunit.de</channel>
-   </package>
   </optional>
  </dependencies>
- <phprelease/>
+ <phprelease />
 </package>

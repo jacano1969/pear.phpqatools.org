@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.phpqatools.org</id>
-    <updated>2012-07-10T12:07:07+02:00</updated>
+    <updated>2012-07-30T12:52:36+02:00</updated>
     <title>PEAR Channel for the PHP Quality Assurance Toolchain Latest Releases</title>
     <link href="http://pear.phpqatools.org/feed.xml" rel="self" />
     <author>
@@ -19,6 +19,19 @@
         <content>
             
 http://github.com/mayflowergmbh/PHP_CodeBrowser/blob/master/CHANGELOG.markdown
+ 
+        </content>
+    </entry>    <entry>
+        <title>phpqatools 1.0.2 (stable)</title>
+        <link href="http://pear.phpqatools.org/get/phpqatools-1.0.2.tgz" />
+        <id>http://pear.phpqatools.org/get/phpqatools-1.0.2.tgz</id>
+        <author>
+            <name>sb</name>
+        </author>
+        <updated>2012-07-30T10:50:05+02:00</updated>
+        <content>
+            
+http://pear.phpqatools.org/
  
         </content>
     </entry>    <entry>
